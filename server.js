@@ -15,7 +15,7 @@ app.use(express.static('public'))
 app.use(cors())
 
 //---------------------------------------------- MongoDB ------------------------------------------------
-const MongoURI = 'mongodb://localhost:27017/avtosalon'
+const MongoURI = 'mongodb+srv://Boburbek:<bob123>@cluster0.5qwmx.mongodb.net/?retryWrites=true&w=majority'
 mongoose
     .connect(MongoURI, {
         useNewUrlParser: true,
